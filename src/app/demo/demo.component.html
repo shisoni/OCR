@@ -1,0 +1,12 @@
+
+ 
+    <h1>OCR</h1>
+    <!-- <form #myForm = "ngForm" [formGroup]="form"  id="frmUploader" enctype="multipart/form-data"> -->
+      <input #fileInput type="file" name="image" multiple (change)="onFileChanged($event)" />
+
+      <!-- <button (click)="fileInput.click()">Select File</button> -->
+      <button (click)="onUpload()">Upload</button>
+
+      <!-- <button (click)="showData()">Show Data</button> -->
+    <!-- </form> -->
+  
